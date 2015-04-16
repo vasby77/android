@@ -1,0 +1,18 @@
+CyanogenMod
+===========
+
+Getting Started (-jКоличество потоков)
+
+---------------
+
+repo init -u git://github.com/ZIM555/android.git -b master
+
+repo sync -j25 
+
+. build/envsetup.sh
+
+lunch
+
+make otatools -j2
+
+make otapackage -j2
