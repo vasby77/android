@@ -31,6 +31,7 @@
   <project path="device/samsung/logan" name="ZIM555/android_device_logan" remote="github" revision="cm-12.0" />
   <project path="device/samsung/logan/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
   <project path="device/samsung/logands/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
+  <project path="device/samsung/logands/kernel_3_10" name="ZIM555/android_kernel_samsung_3_10" remote="github" revision="master" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
