@@ -35,7 +35,6 @@
   
   <project path="device/samsung/logan/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
   <project path="device/samsung/logands/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
-  <project path="device/samsung/logands/kernel2" name="ZIM555/android_kernel_samsung_kylevess" remote="github" revision="master" />
   
   <project path="device/samsung/kylevess/kernel" name="ZIM555/android_kernel_samsung_kylevess" remote="github" revision="master" />
 
