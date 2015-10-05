@@ -25,6 +25,7 @@
   <project path="android" name="CyanogenMod/android" />
   
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
+  
   <project path="vendor/samsung/logands" name="ZIM555/android_vendor_logands" remote="github" revision="master" />
   <project path="device/samsung/logands" name="ZIM555/android_device_logands" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/logan" name="ZIM555/android_vendor_logan" remote="github" revision="master" />
