@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r13" />
+           revision="refs/tags/android-5.1.1_r24" />
 
   <remote  name="github"
            fetch=".."
@@ -25,14 +25,14 @@
   <project path="android" name="CyanogenMod/android" />
   
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
-  
   <project path="vendor/samsung/logands" name="ZIM555/android_vendor_logands" remote="github" revision="master" />
   <project path="device/samsung/logands" name="ZIM555/android_device_logands" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/logan" name="ZIM555/android_vendor_logan" remote="github" revision="master" />
   <project path="device/samsung/logan" name="ZIM555/android_device_logan" remote="github" revision="cm-12.1" />
   <project path="device/samsung/logan/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
   <project path="device/samsung/logands/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
-  
+  <project path="prebuilts/gcc/linux-x86/arm" name="ZIM555/android_prebuilts_gcc" remote="github" revision="master" />
+
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -129,7 +129,7 @@
   <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r13" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
@@ -216,8 +216,10 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
