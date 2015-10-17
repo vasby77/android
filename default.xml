@@ -33,12 +33,6 @@
   <project path="device/samsung/logands/kernel" name="ZIM555/android_kernel_samsung" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm" name="ZIM555/android_prebuilts_gcc" remote="github" revision="master" />
   
-  
-  <project path="vendor/samsung/kylevess" name="ZIM555/android_vendor_kylevess" remote="github" revision="master" />
-  <project path="device/samsung/kylevess" name="ZIM555/android_device_kylevess" remote="github" revision="master" />
-  <project path="device/samsung/kylevess/kernel" name="ZIM555/android_kernel_samsung_kylevess" remote="github" revision="master" />
-  
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
