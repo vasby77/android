@@ -23,7 +23,6 @@
 
   <project path="android" name="CyanogenMod/android" />
   
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung/logands" name="ZIM555/android_vendor_logands" remote="github" revision="master" />
   <project path="device/samsung/logands" name="ZIM555/android_device_logands" remote="github" revision="master" />
   <project path="vendor/samsung/logan" name="ZIM555/android_vendor_logan" remote="github" revision="master" />
@@ -32,9 +31,12 @@
   <project path="device/samsung/kylevess" name="ZIM555/android_device_kylevess" remote="github" revision="master" />
   <project path="vendor/samsung/kylevess" name="ZIM555/android_vendor_kylevess" remote="github" revision="master" />
   <project path="kernel/samsung/kylevess" name="ZIM555/android_kernel_samsung_kylevess" remote="github" revision="master" />
+  
   <project path="device/samsung/fortunave3g" name="ZIM555/android_device_fortunave3g" remote="github" revision="master" />
   <project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_fortunave3g" remote="github" revision="master" />
   <project path="kernel/samsung/fortunave3g" name="ZIM555/android_kernel_samsung_fortunaxx" remote="github" revision="master" />
+  <project path="device/qcom" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
