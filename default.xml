@@ -24,11 +24,16 @@
 
   <project path="android" name="CyanogenMod/android" />
   
-  <project path="vendor/samsung/fortunaxx3g" name="ZIM555/android_vendor_samsung_fortunaxx3g" remote="github" revision="cm-12.1" />
   <project path="device/samsung/fortunave3g" name="ZIM555/android_device_samsung_fortunave3g" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung/fortunaxx3g" name="ZIM555/android_vendor_samsung_fortunaxx3g" remote="github" revision="cm-12.1" />
   <project path="kernel/samsung/fortunaxx3g" name="ZIM555/android_kernel_samsung_fortunaxx3g" remote="github" revision="cm-12.1" />
   
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="github" revision="cm-12.1" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
+  
   <project path="vendor/samsung/logands" name="ZIM555/android_vendor_logands" remote="github" revision="master" />
   <project path="device/samsung/logands" name="ZIM555/android_device_logands" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/logan" name="ZIM555/android_vendor_logan" remote="github" revision="master" />
