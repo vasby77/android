@@ -29,7 +29,6 @@
   <project path="device/samsung/fortuna3g" name="ZIM555/android_device_samsung_fortuna3g" remote="github" revision="master" />
   <project path="vendor/samsung/fortuna3g" name="ZIM555/android_vendor_samsung_fortuna3g" remote="github" revision="master" />
   <project path="kernel/samsung/fortunaxx3g" name="ZIM555/android_kernel_samsung_fortunaxx3g" remote="github" revision="cm-12.1" />
-  <project path="packages/services/Telecomm" name="ZIM555/android_packages_services_Telecomm" remote="github" revision="cm-12.1" />
   
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
@@ -517,6 +516,7 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
+  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
