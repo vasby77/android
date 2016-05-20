@@ -43,6 +43,7 @@
   <project path="device/samsung/logan/kernel" name="ZIM555/android_kernel_samsung_loganxx" remote="github" revision="cm-11.0" />
   <project path="device/samsung/logands/kernel" name="ZIM555/android_kernel_samsung_loganxx" remote="github" revision="cm-11.0" />
   <project path="prebuilts/gcc/linux-x86/arm" name="ZIM555/android_prebuilts_gcc" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm" name="ZIM555/android_prebuilt_arm_toolchain_32bit" remote="github" revision="master" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
