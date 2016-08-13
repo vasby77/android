@@ -35,7 +35,7 @@
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="prebuilts/gcc/linux-x86/arm" name="ZIM555/android_prebuilts_gcc" remote="github" revision="master" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0"/>
-  <project path="external/chromium-webview" name="ZIM555/android_external_chromium-webview-bcm" revision="aosp-6.0" />
+  <project path="external/chromium-webview-bcm" name="ZIM555/android_external_chromium-webview" revision="aosp-6.0" />
 
   <project path="device/samsung/fortunave3g" name="ZIM555/android_device_samsung_fortunave3g" remote="github" revision="cm-13.0" />
   <project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_samsung_fortunave3g" remote="github" revision="cm-13.0" />
