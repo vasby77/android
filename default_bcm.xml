@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r61" />
+           revision="refs/tags/android-6.0.1_r66" />
 
   <remote  name="github"
            fetch=".."
@@ -37,7 +37,7 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0"/>
   
   <project path="external/chromium-webview" name="ZIM555/android_external_chromium-webview" revision="aosp-6.0" />
-
+  
   <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -69,6 +69,7 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
+  <project path="external/chromium-webview" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
   <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
