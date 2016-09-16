@@ -12,6 +12,11 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.0.0_r6" />
+           
+  <remote  name="aosp6"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-6.0.1_r66" />         
 
   <default revision="refs/heads/staging/cm-14.0"
            remote="github"
@@ -42,7 +47,7 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.0" />
-  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp6" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
