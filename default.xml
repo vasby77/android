@@ -42,7 +42,13 @@
   <project path="vendor/samsung/logan" name="vasby77/android_vendor_logan" remote="github" revision="cm-14.1" />
   <project path="kernel/samsung/logan" name="vasby77/android_kernel_samsung_loganxx" remote="github" revision="cm-14.1" />
   
- 
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="cm-14.1" />
+  <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="cm-14.1" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.0" />
+  <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
+  <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" clone-depth="1" remote="github" revision="7.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 
   
   <project pZth="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
@@ -99,7 +105,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
- 
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
