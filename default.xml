@@ -40,6 +40,7 @@
   <project path="device/samsung/logan" name="vasby77/android_device_logan" remote="github" revision="cm-14.1" />
   <project path="vendor/samsung/logan" name="vasby77/android_vendor_logan" remote="github" revision="cm-14.1" />
   <project path="kernel/samsung/logan" name="vasby77/android_kernel_samsung_loganxx" remote="github" revision="n" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
   
   <!-- KYLEPROXX -->
   <project path="device/samsung/kylepro" name="Samsung-KYLEPROXX/android_device_samsung_kylepro" remote="github" revision="cm-14.1" />
@@ -113,7 +114,7 @@
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" remote="aosp" />
+<--  <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" remote="aosp" /> -->
   <project path="external/dlmalloc" name="platform/external/dlmalloc" remote="aosp" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" remote="aosp" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
