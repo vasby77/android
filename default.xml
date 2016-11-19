@@ -40,7 +40,7 @@
   <project path="device/samsung/logan" name="vasby77/android_device_logan" remote="github" revision="cm-14.1" />
   <project path="vendor/samsung/logan" name="vasby77/android_vendor_logan" remote="github" revision="cm-14.1" />
   <project path="kernel/samsung/logan" name="vasby77/android_kernel_samsung_loganxx" remote="github" revision="n" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0"/>
+  <!-- <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0"/ -->
   
   <!-- KYLEPROXX -->
   <project path="device/samsung/kylepro" name="Samsung-KYLEPROXX/android_device_samsung_kylepro" remote="github" revision="cm-14.1" />
